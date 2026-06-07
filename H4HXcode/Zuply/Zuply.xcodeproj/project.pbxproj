@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		30526EBE2FD5933700F6B7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30526EA42FD5933600F6B7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30526EAB2FD5933600F6B7AF;
+			remoteInfo = Zuply;
+		};
+		30526EC82FD5933700F6B7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30526EA42FD5933600F6B7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30526EAB2FD5933600F6B7AF;
+			remoteInfo = Zuply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30526EAC2FD5933600F6B7AF /* Zuply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zuply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30526EBD2FD5933700F6B7AF /* ZuplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30526EC72FD5933700F6B7AF /* ZuplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		30526EAE2FD5933600F6B7AF /* Zuply */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zuply;
+			sourceTree = "<group>";
+		};
+		30526EC02FD5933700F6B7AF /* ZuplyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZuplyTests;
+			sourceTree = "<group>";
+		};
+		30526ECA2FD5933700F6B7AF /* ZuplyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZuplyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30526EA92FD5933600F6B7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30526EBA2FD5933700F6B7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30526EC42FD5933700F6B7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30526EA32FD5933600F6B7AF = {
+			isa = PBXGroup;
+			children = (
+				30526EAE2FD5933600F6B7AF /* Zuply */,
+				30526EC02FD5933700F6B7AF /* ZuplyTests */,
+				30526ECA2FD5933700F6B7AF /* ZuplyUITests */,
+				30526EAD2FD5933600F6B7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30526EAD2FD5933600F6B7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30526EAC2FD5933600F6B7AF /* Zuply.app */,
+				30526EBD2FD5933700F6B7AF /* ZuplyTests.xctest */,
+				30526EC72FD5933700F6B7AF /* ZuplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30526EAB2FD5933600F6B7AF /* Zuply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30526ED12FD5933700F6B7AF /* Build configuration list for PBXNativeTarget "Zuply" */;
+			buildPhases = (
+				30526EA82FD5933600F6B7AF /* Sources */,
+				30526EA92FD5933600F6B7AF /* Frameworks */,
+				30526EAA2FD5933600F6B7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30526EAE2FD5933600F6B7AF /* Zuply */,
+			);
+			name = Zuply;
+			packageProductDependencies = (
+			);
+			productName = Zuply;
+			productReference = 30526EAC2FD5933600F6B7AF /* Zuply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30526EBC2FD5933700F6B7AF /* ZuplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30526ED42FD5933700F6B7AF /* Build configuration list for PBXNativeTarget "ZuplyTests" */;
+			buildPhases = (
+				30526EB92FD5933700F6B7AF /* Sources */,
+				30526EBA2FD5933700F6B7AF /* Frameworks */,
+				30526EBB2FD5933700F6B7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30526EBF2FD5933700F6B7AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30526EC02FD5933700F6B7AF /* ZuplyTests */,
+			);
+			name = ZuplyTests;
+			packageProductDependencies = (
+			);
+			productName = ZuplyTests;
+			productReference = 30526EBD2FD5933700F6B7AF /* ZuplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30526EC62FD5933700F6B7AF /* ZuplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30526ED72FD5933700F6B7AF /* Build configuration list for PBXNativeTarget "ZuplyUITests" */;
+			buildPhases = (
+				30526EC32FD5933700F6B7AF /* Sources */,
+				30526EC42FD5933700F6B7AF /* Frameworks */,
+				30526EC52FD5933700F6B7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30526EC92FD5933700F6B7AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30526ECA2FD5933700F6B7AF /* ZuplyUITests */,
+			);
+			name = ZuplyUITests;
+			packageProductDependencies = (
+			);
+			productName = ZuplyUITests;
+			productReference = 30526EC72FD5933700F6B7AF /* ZuplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30526EA42FD5933600F6B7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					30526EAB2FD5933600F6B7AF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					30526EBC2FD5933700F6B7AF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 30526EAB2FD5933600F6B7AF;
+					};
+					30526EC62FD5933700F6B7AF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 30526EAB2FD5933600F6B7AF;
+					};
+				};
+			};
+			buildConfigurationList = 30526EA72FD5933600F6B7AF /* Build configuration list for PBXProject "Zuply" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30526EA32FD5933600F6B7AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 30526EAD2FD5933600F6B7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30526EAB2FD5933600F6B7AF /* Zuply */,
+				30526EBC2FD5933700F6B7AF /* ZuplyTests */,
+				30526EC62FD5933700F6B7AF /* ZuplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30526EAA2FD5933600F6B7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30526EBB2FD5933700F6B7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30526EC52FD5933700F6B7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30526EA82FD5933600F6B7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30526EB92FD5933700F6B7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30526EC32FD5933700F6B7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30526EBF2FD5933700F6B7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30526EAB2FD5933600F6B7AF /* Zuply */;
+			targetProxy = 30526EBE2FD5933700F6B7AF /* PBXContainerItemProxy */;
+		};
+		30526EC92FD5933700F6B7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30526EAB2FD5933600F6B7AF /* Zuply */;
+			targetProxy = 30526EC82FD5933700F6B7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30526ECF2FD5933700F6B7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30526ED02FD5933700F6B7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		30526ED22FD5933700F6B7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zuply/Zuply.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zuply/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progra.Zuply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		30526ED32FD5933700F6B7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zuply/Zuply.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zuply/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progra.Zuply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		30526ED52FD5933700F6B7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progra.ZuplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zuply.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zuply";
+			};
+			name = Debug;
+		};
+		30526ED62FD5933700F6B7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progra.ZuplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zuply.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zuply";
+			};
+			name = Release;
+		};
+		30526ED82FD5933700F6B7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progra.ZuplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Zuply;
+			};
+			name = Debug;
+		};
+		30526ED92FD5933700F6B7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progra.ZuplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Zuply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30526EA72FD5933600F6B7AF /* Build configuration list for PBXProject "Zuply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30526ECF2FD5933700F6B7AF /* Debug */,
+				30526ED02FD5933700F6B7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30526ED12FD5933700F6B7AF /* Build configuration list for PBXNativeTarget "Zuply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30526ED22FD5933700F6B7AF /* Debug */,
+				30526ED32FD5933700F6B7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30526ED42FD5933700F6B7AF /* Build configuration list for PBXNativeTarget "ZuplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30526ED52FD5933700F6B7AF /* Debug */,
+				30526ED62FD5933700F6B7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30526ED72FD5933700F6B7AF /* Build configuration list for PBXNativeTarget "ZuplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30526ED82FD5933700F6B7AF /* Debug */,
+				30526ED92FD5933700F6B7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30526EA42FD5933600F6B7AF /* Project object */;
+}
